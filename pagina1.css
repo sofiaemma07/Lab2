@@ -1,0 +1,59 @@
+body{
+    background-color: papayawhip;
+}
+body{
+    color: brown;
+}
+body{
+    text-align: justify;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+div{
+    text-align: center;
+}
+footer{
+    background-color: rgb(206, 168, 133);
+    color: rgb(94, 59, 39);
+    font-family:'Courier New', Courier, monospace;
+    height: 30px;
+}
+li, ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* selector avanzado: padre > hijo */
+.navbar > li{
+    padding: 10px;
+    border: 1px solid black;
+    margin: 1px;
+    border-radius: 10px;
+    background-color: rgb(255, 235, 148);
+    cursor: pointer;
+}
+
+/* barra de navegacion */
+.navbar > li:hover{
+    background-color:rgb(255, 238, 83);
+    padding: 14px;
+    transition-duration: 0.1s;
+}
+
+/* eliminamos los valores por defecto de la etiqueta <a> */
+a{
+    text-decoration: none;
+    color: black;
+} 
